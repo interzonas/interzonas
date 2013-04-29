@@ -61,15 +61,11 @@ color: #fff;
 }
 
 #slide2 {
-    background-color: #121212;
-/*    background: url("../img/bg-proyectos.png") repeat scroll 0 0 transparent;*/
+    background-color: #262524;
     min-height: 1090px;
 }
 
-#slide3 {
 
- 
-}
 #slide4 {
    
     background: #232323 url("../img/t-footer.png") bottom center no-repeat ;
@@ -100,9 +96,11 @@ p.intertitle {
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 1.1px;
-    -webkit-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.75);
--moz-box-shadow:    0px 3px 9px rgba(0, 0, 0, 0.75);
-box-shadow:         0px 3px 4px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow:  0px 3px 4px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow:  0px 3px 4px rgba(0, 0, 0, 0.65);
+    -o-box-shadow:  0px 3px 4px rgba(0, 0, 0, 0.65);
+    -ms-box-shadow:  0px 3px 4px rgba(0, 0, 0, 0.65);
+    box-shadow:         0px 3px 4px rgba(0, 0, 0, 0.65);
 }
 
 .section-nav {
@@ -200,14 +198,15 @@ min-height: 840px;
 
 .w5 {
     transform: rotate(45deg);
-     -webkit-transform:rotate(45deg);
-
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -op-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
 }
 
 
 .item-u {
    border: 9px solid #009FDD; 
-/*   background-color: #000;*/
   height: 220px;
 width: 220px;
 
@@ -369,6 +368,10 @@ color: #FF4D00;
     border: 1px solid #dadada;
     padding: 10px 15px;
     transition: all 400ms ease 0s;
+    -webkit-transition: all 400ms ease 0s;
+    -moz-transition: all 400ms ease 0s;
+    -o-transition: all 400ms ease 0s;
+    -ms-transition: all 400ms ease 0s;
     color: #fff;
 }
 
@@ -460,6 +463,10 @@ font-size: 18px;
 .texto-contacta a:hover {
  color: #FF4D00; 
  transition: all 400ms ease 0s;
+ -moz-transition: all 400ms ease 0s;
+ -webkit-transition: all 400ms ease 0s;
+ -o-transition: all 400ms ease 0s;
+ -ms-transition: all 400ms ease 0s;
 }
 .mail {
     border-left: 1px solid #555555;
@@ -486,7 +493,12 @@ font-size: 18px;
 
 .redes a:hover img {
     opacity:0.4;
-    transition: all 400ms ease 0s;
+transition: all 400ms ease 0s;
+ -moz-transition: all 400ms ease 0s;
+ -webkit-transition: all 400ms ease 0s;
+ -o-transition: all 400ms ease 0s;
+ -ms-transition: all 400ms ease 0s;
+
 }
 
 .item-u {
@@ -497,10 +509,6 @@ font-size: 18px;
 
 }
 
-
-.item-u .content:hover {
-   
-}
 
 
 .item h2 {
@@ -532,9 +540,7 @@ font-size: 18px;
 }
 
 .item-u h2:hover {
-
-    /*border-bottom: 1px solid #009FDD;*/
-    border-bottom: 1px solid#FF4D00;
+    border-bottom: 1px solid #FF4D00;
 }
 
 
@@ -545,6 +551,10 @@ font-size: 18px;
 
 .item-u:hover {
 box-shadow: 1px 1px 45px rgba(0, 180, 255, 0.90);
+-webkit-box-shadow: 1px 1px 45px rgba(0, 180, 255, 0.90);
+-moz-box-shadow: 1px 1px 45px rgba(0, 180, 255, 0.90);
+-o-box-shadow: 1px 1px 45px rgba(0, 180, 255, 0.90);
+-ms-box-shadow: 1px 1px 45px rgba(0, 180, 255, 0.90);
 transition: all 0.4s ease-in-out 0.3s;
 background-color: #21201E;
 }
@@ -556,12 +566,16 @@ background-color: #21201E;
    transition: all 1s;
    -moz-transition: all 1s;
    -webkit-transition: all 1s;
+   -o-transition: all 1s;
+   -ms-transition: all 1s;
+
 }
 
 
 
 #proyectos-slide {
     -webkit-transition: all 1s; 
+    -ms-transition: all 1s; 
     -moz-transition: all 1s; 
     -o-transition: all 1s; 
     transition: all 1s;
@@ -607,9 +621,6 @@ canvas {
 
 .redes img {
     margin: 0 auto;
-}
-.re {
-    background-color: red; 
 }
 
 ul.i-redes li {
@@ -706,6 +717,10 @@ label {
    color: #bbb;
     border: 1px solid #dadada;
     transition: all 100ms ease 0s;
+    -webkit-transition: all 100ms ease 0s;
+    -moz-transition: all 100ms ease 0s;
+    -o-transition: all 100ms ease 0s;
+    -ms-transition: all 100ms ease 0s;
  }
 
 
@@ -757,21 +772,14 @@ h2.h-nosotros {
 .h-nosotros a:hover {
 background: url("../img/punto.png") top no-repeat;
 padding: 10px;
-/*color:#888;*/
 }
 #container{
     position: absolute;
 }
 
 
-
-/*operacion instangram */
-
-
 .supercontainer { 
     background: transparent url(../img/pattern.png) repeat top left; 
-/*    Cambiando el nombre del archivo p1.png cambias la intensidad del superpuesto
-    disponibles p2.png, p3.png */
     z-index: 0; width: 100%;
     height: 100%;
     position: relative;
@@ -790,7 +798,6 @@ padding: 10px;
     background-position: 50% 50%;
     background-repeat: none;
     background-image: url(../img/5.jpg);
- /*   Tienes 5 imagenes en local para hacer pruebas 1.jpg, 2.jpg etc*/
     z-index: 0;  
     height: 990px;
     box-shadow: 0 0 5px #111111; 
@@ -806,12 +813,13 @@ padding: 10px;
 
 #slide4 {
     box-shadow: 0 -3px 5px #111111;
+    -webkit-box-shadow: 0 -3px 5px #111111;
+    -moz-box-shadow: 0 -3px 5px #111111;
+    -o-box-shadow: 0 -3px 5px #111111;
+    -ms-box-shadow: 0 -3px 5px #111111;
 }
 
 
-#proyectos-todos li {
-
-}
 
 .orbit-slide-number {
     display: none;
@@ -863,5 +871,4 @@ padding: 0 15px;
  {
 color: #FF4D00;
 text-decoration: underline;
-  
 }
