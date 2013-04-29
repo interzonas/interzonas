@@ -1,0 +1,424 @@
+/*MEDIAQUERIS*/
+
+@media (max-width: 320px) { 
+
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.item-u {
+    background-color: #000000;
+    border: 6px solid #009FDD;
+    height: 130px;
+    width: 130px;
+}
+
+.content {
+    height: 130px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    width: 130px;
+}
+
+
+.item-u a.ddinfo {
+    display: inline-block;
+    text-decoration: none;
+    padding: 28px 5px;
+    text-decoration: none;
+}
+
+
+.c5
+{
+    clear: both;
+}
+
+.w5.i2 {
+    left: 107px;
+    position: relative;
+    top: -29px;
+}
+
+#columna2.c5,
+#columna4.c5{
+ position: relative;
+ top: 0px;
+}
+
+.item h2 {
+    font-size: 15px;
+    border: none;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+
+.item p {
+     display: none;
+}
+
+#proyectos-grid {
+    margin-top: 10px;
+}
+
+ul.i-redes img {
+display: inline;
+}
+
+
+
+}
+
+
+@media (min-width : 321px) and (max-width: 600px) { 
+
+#proyectos-grid, {
+    clear: both;
+    margin: 0;
+    min-height: 800px;
+}
+
+.item-u {
+    background-color: #000000;
+    /*border: 9px solid #009FDD;*/
+    border: 9px solid orange;
+    height: 200px;
+    width: 200px;
+}
+
+.content {
+    height: 200px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    width: 200px;
+}
+
+.w5 {
+    padding: 0px;
+    left: 54px;
+    top: 21px;
+}
+
+
+.c5
+{
+    width: 40%;
+    height: 400px;
+    clear: both;
+    left: 87px;
+    position: relative;
+}
+
+
+.w5.i2 {
+    left: 125px;
+    position: relative;
+    top: 0px;
+}
+
+#columna2.c5,
+#columna4.c5{
+position: relative;
+top: 0px;
+}
+
+.item-u a.ddinfo {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+#proyectos-grid {
+    margin-top: 55px;
+    margin-left: 20px;
+
+}
+
+ul.i-redes img {
+display: inline;
+}
+ul.i-redes li {
+    display: block;
+    margin: 0 auto;
+    padding: 3% 34%;
+}
+
+}
+
+
+
+
+
+@media (min-width : 600px) and (max-width: 685px) { 
+
+#proyectos-grid, {
+    clear: both;
+    margin: 0;
+    min-height: 800px;
+}
+
+.item-u {
+    background-color: #000000;
+   /* border: 9px solid #009FDD;*/
+   border: 9px solid red;
+    height: 200px;
+    width: 200px;
+}
+
+.content {
+    height: 200px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    width: 200px;
+}
+
+.w5 {
+    padding: 0px;
+    left: 54px;
+    top: 21px;
+}
+
+
+.c5
+{
+    width: 40%;
+    height: 400px;
+    clear: both;
+    left: 87px;
+    position: relative;
+}
+
+
+.w5.i2 {
+    left: 125px;
+    position: relative;
+    top: 0px;
+}
+
+#columna2.c5,
+#columna4.c5{
+position: relative;
+top: 0px;
+}
+
+.item-u a.ddinfo {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#proyectos-grid {
+    margin-top: 55px;
+}
+ul.i-redes img {
+display: inline;
+}
+ul.i-redes li {
+    display: block;
+    margin: 0 auto;
+    padding: 3% 34%;
+}
+
+}
+
+
+@media (min-width : 800px) and (max-width: 1023px ) and (orientation:landscape) { 
+
+.item-u {
+    background-color: #000000;
+   border: 6px solid pink;
+    height: 170px;
+    width: 170px;
+}
+
+.item h2 {
+ 
+   font-size: 14px;
+   padding: 10px;
+   margin: 20px 0 0 0;
+   margin-top: 5px;
+}
+
+
+.item p {
+    color: #FFFFFF;
+    font-family: Georgia,serif;
+    font-size: 11px;
+    font-style: italic;
+    padding: 10px 20px 20px;
+    position: relative;
+    text-align: center;
+}
+
+
+.content {
+    height: 170px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    width: 170px;
+}
+
+#columna2.c5, #columna4.c5 {
+    position: relative;
+    top: 162px;
+}
+
+ul.i-redes img {
+display: inline;
+}
+
+
+ul.i-redes li {
+    display: block;
+    margin: 0 auto;
+    padding: 3% 34%;
+}
+}
+
+@media (min-width : 685px) and (max-width: 1024px ) and (orientation:portrait){ 
+
+.item-u {
+    background-color: #000000;
+   border: 7px solid olive;
+    height: 160px;
+    width: 160px;
+}
+
+
+#columna2.c5, #columna4.c5 {
+    position: relative;
+    top: 159px;
+}
+
+.item h2 {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.item p {
+    color: #FFFFFF;
+    font-family: Georgia,serif;
+    font-size: 12px;
+    font-style: italic;
+    padding: 10px 20px 20px;
+    position: relative;
+    text-align: center;
+}
+
+ul.i-redes li {
+    display: block;
+    margin: 0 auto;
+    padding: 3% 34%;
+}
+
+}
+
+@media (min-width : 1024px) and (max-width: 1024px ) and (orientation:landscape) { 
+
+.item-u {
+    background-color: #000000;
+  /*  border: 9px solid #009FDD;*/
+  border: 9px solid #908979;
+    height: 220px;
+    width: 220px;
+}
+
+
+#columna2.c5, #columna4.c5 {
+    position: relative;
+    top: 180px;
+}
+
+ul.i-redes img {
+display: inline;
+}
+
+}
+
+
+@media (max-device-width: 1024px) and (orientation: landscape) { 
+
+.item-u {
+    background-color: #000000;
+  /*  border: 9px solid #009FDD;*/
+  border: 9px solid #908979;
+    height: 160px;
+    width: 160px;
+}
+
+.item-u a.ddinfo {
+padding: 17px 10px;
+}
+.content {
+    height: 170px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    width: 170px;
+}
+
+.item h2 {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 5px 0 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.item p {
+    color: #FFFFFF;
+    font-family: Georgia,serif;
+    font-size: 12px;
+    font-style: italic;
+    padding: 10px 20px 20px;
+    position: relative;
+    text-align: center;
+}
+
+#columna2.c5, #columna4.c5 {
+    position: relative;
+    top: 160px;
+}
+ul.i-redes img {
+display: inline;
+}
+
+}
