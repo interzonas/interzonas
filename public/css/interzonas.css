@@ -207,10 +207,23 @@ min-height: 840px;
 
 .item-u {
    border: 9px solid #009FDD; 
-  height: 220px;
-width: 220px;
+   height: 220px;
+   width: 220px;
+   background-color: #21201E;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+   opacity: 0.8;
 
 }
+
+
+
+
+
+
+
 .c5
 {
     width: 19%;
@@ -501,15 +514,6 @@ transition: all 400ms ease 0s;
 
 }
 
-.item-u {
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   cursor: default;
-
-}
-
-
 
 .item h2 {
    text-transform: uppercase;
@@ -556,7 +560,7 @@ box-shadow: 1px 1px 45px rgba(0, 180, 255, 0.90);
 -o-box-shadow: 1px 1px 45px rgba(0, 180, 255, 0.90);
 -ms-box-shadow: 1px 1px 45px rgba(0, 180, 255, 0.90);
 transition: all 0.4s ease-in-out 0.3s;
-background-color: #21201E;
+background-color: #000;
 }
 
 
