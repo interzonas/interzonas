@@ -63,7 +63,6 @@ $(document).ready(function(){
   $('ul.nav a').smoothScroll({
       afterScroll: function() {
         $('ul.nav li a').each(function(){
-          console.log(this)
           $(this).removeClass('active');
         })
 
@@ -125,7 +124,12 @@ $(document).ready(function(){
       }
     });
     $('#f-contacto').fadeOut('600');
-  });       
+  });
+
+  $('.x').click(function(e){
+    e.preventDefault();
+    $('#f-contacto').fadeOut('600');
+  });
    
   fondoinst(); 
 })
