@@ -89,8 +89,7 @@ display: inline;
 
 .item-u {
     background-color: #000000;
-    /*border: 9px solid #009FDD;*/
-    border: 9px solid orange;
+    border: 9px solid #009FDD;
     height: 200px;
     width: 200px;
 }
@@ -175,8 +174,7 @@ ul.i-redes li {
 
 .item-u {
     background-color: #000000;
-   /* border: 9px solid #009FDD;*/
-   border: 9px solid red;
+   border: 9px solid #009FDD;
     height: 200px;
     width: 200px;
 }
@@ -248,7 +246,7 @@ ul.i-redes li {
 
 .item-u {
     background-color: #000000;
-   border: 6px solid pink;
+   border: 6px solid #009FDD;
     height: 170px;
     width: 170px;
 }
@@ -304,7 +302,7 @@ ul.i-redes li {
 
 .item-u {
     background-color: #000000;
-   border: 7px solid olive;
+   border: 7px solid #009FDD;
     height: 160px;
     width: 160px;
 }
@@ -349,8 +347,7 @@ ul.i-redes li {
 
 .item-u {
     background-color: #000000;
-  /*  border: 9px solid #009FDD;*/
-  border: 9px solid #908979;
+    border: 9px solid #009FDD;
     height: 220px;
     width: 220px;
 }
@@ -372,8 +369,7 @@ display: inline;
 
 .item-u {
     background-color: #000000;
-  /*  border: 9px solid #009FDD;*/
-  border: 9px solid #908979;
+  border: 9px solid #009FDD;
     height: 160px;
     width: 160px;
 }
