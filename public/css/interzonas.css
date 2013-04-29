@@ -264,7 +264,7 @@ left: -26px;
 }
 
 .proyectos-bottom {
-background: url("../img/bg-proyectos-bottom.png") bottom no-repeat;
+/*background: url("../img/bg-proyectos-bottom.png") bottom no-repeat;*/
 z-index:999;
 width: 100%;
 height: 70px;
