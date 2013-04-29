@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  //Efecto proyectos
   var cancel;
   var container = document.getElementById('container');
   var slide = document.getElementById('slide2');
@@ -10,6 +11,7 @@ $(document).ready(function(){
   var mesh = new FSS.Mesh(geometry, material);
   var now, start = Date.now();
 
+  //init
   function initialise() {
     scene.add(mesh);
     scene.add(light);
@@ -36,11 +38,14 @@ $(document).ready(function(){
   }).mouseleave(function(){
     cancelAnimationFrame(cancel);
   });
+  //fin efecto entrada
 
+  //Fondo fotos instragram 
   var fondoinst = function(){
     var urls = ['https://api.instagram.com/v1/users/35055330/media/recent/?access_token=35055330.467ede5.671e3e299f1c4e4dababa2a32671161c', 
                 'https://api.instagram.com/v1/users/30654164/media/recent/?access_token=30654164.467ede5.0c52cd56ea634cb9981e8b7d6039d684'];
     var url = urls[Math.floor(Math.random() * urls.length)];
+
     $.ajax({
       type: 'GET',
       url: url,
@@ -80,13 +85,15 @@ $(document).ready(function(){
   $('#formulario').click(function(e){
      e.preventDefault();
     $('#f-contacto').fadeIn('600');
-    movida(this);
+    formularioContacto(this);
   });
-  var movida = function(id){
+
+  var formularioContacto = function(id){
     $.smoothScroll({
       scrollTarget:'#f-contacto'
     });
   }
+
   $(document).keyup(function(e) {
     if(e.keyCode === 37 || e.keyCode === 39){
       fondoinst();
@@ -98,19 +105,19 @@ $(document).ready(function(){
   });
 
   $('#proyecto1').click(function(){
-     var p = $('#slide2');
-     var position = p.position();
-     $('#proyectos-slide').css("visibility", "visible");
-     $('#proyectos-slide').css("left", "0");
-     return false;
-   });
+    var p = $('#slide2');
+    var position = p.position();
+    $('#proyectos-slide').css("visibility", "visible");
+    $('#proyectos-slide').css("left", "0");
+    return false;
+  });
 
-   $('.close').click(function(){
-     $('#proyectos-slide').css("visibility", "hidden");
-     $('#proyectos-slide').css("left", "100%");
-   });
+  $('.close').click(function(){
+    $('#proyectos-slide').css("visibility", "hidden");
+    $('#proyectos-slide').css("left", "100%");
+  });
 
-   $('#enter').click(function(e){
+  $('#enter').click(function(e){
     e.preventDefault();
     var data = {};
     data.nombre = $('#formularioNombre').val();
@@ -130,6 +137,6 @@ $(document).ready(function(){
     e.preventDefault();
     $('#f-contacto').fadeOut('600');
   });
-   
+  
   fondoinst(); 
 })
