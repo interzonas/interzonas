@@ -104,12 +104,10 @@ $(document).ready(function(){
     }
   });
 
-  $('#proyecto1').click(function(){
-    var p = $('#slide2');
-    var position = p.position();
+  $('.proyectos').click(function(){
     $('#proyectos-slide').css("visibility", "visible");
     $('#proyectos-slide').css("left", "0");
-    return false;
+    //return false;
   });
 
   $('.close').click(function(){
