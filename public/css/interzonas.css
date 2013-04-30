@@ -783,11 +783,12 @@ padding: 10px;
 
 .supercontainer { 
     background: transparent url(../img/pattern.png) repeat top left; 
-    z-index: 0; width: 100%;
-    height: 100%;
+    z-index: 0; 
+    width: 100%;
     position: relative;
     top: 0px;
     left: 0px;
+     height: 1035px;
 }
 
 
@@ -802,7 +803,8 @@ padding: 10px;
     background-repeat: none;
     background-image: url(../img/5.jpg);
     z-index: 0;  
-    height: 990px;
+/*    height: 990px;*/
+    min-height: 1035px;
     box-shadow: 0 0 5px #111111; 
 }
 
@@ -874,4 +876,9 @@ padding: 0 15px;
  {
 color: #FF4D00;
 text-decoration: underline;
+}
+
+.instrucciones {
+    font-size: 10px;
+    line-height: 45px;
 }
