@@ -78,6 +78,11 @@ display: inline;
     display: none;
 }
 
+.proyectos-top {
+    background-size: 80%;
+}
+
+
 }
 
 
@@ -247,6 +252,7 @@ ul.i-redes li {
 .i-flechas {
     display: none;
 }
+
 
 }
 
