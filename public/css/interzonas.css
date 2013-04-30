@@ -885,8 +885,10 @@ color: #FF4D00;
 
 }
 .instrucciones {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 45px;
+    letter-spacing: 0.3px;
+
 }
 
 
