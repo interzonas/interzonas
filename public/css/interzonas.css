@@ -57,6 +57,8 @@ color: #fff;
     background-position: 50% 35%;
     background-repeat: none;
     background-image: url(../img/punk.jpg);
+    border-bottom: 1px solid;
+    width: 100%;
 
 }
 
@@ -73,9 +75,6 @@ color: #fff;
 
 }
 
-#slide1 {
-    width: 100%;
-}
 
 
 /*PUNK*/
