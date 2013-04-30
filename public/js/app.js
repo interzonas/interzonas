@@ -57,7 +57,7 @@ $(document).ready(function(){
         var numero = Math.floor((Math.random()*json.data.length)+1);
          $('#slide3').css("background-repeat", "none");
          $('#slide3').css("background-image", "url("+json.data[numero].images.standard_resolution.url+")"); 
-         $('#slide3').css("background-size", "107%");
+         $('#slide3').css("background-size", "cover");
         },
       error: function(e) {
          console.log(e.message);
