@@ -74,7 +74,9 @@ ul.i-redes img {
 display: inline;
 }
 
-
+.i-flechas {
+    display: none;
+}
 
 }
 
@@ -158,6 +160,10 @@ ul.i-redes li {
     padding: 3% 34%;
 }
 
+.i-flechas {
+    display: none;
+}
+
 }
 
 
@@ -238,6 +244,9 @@ ul.i-redes li {
     margin: 0 auto;
     padding: 3% 34%;
 }
+.i-flechas {
+    display: none;
+}
 
 }
 
@@ -296,6 +305,10 @@ ul.i-redes li {
     margin: 0 auto;
     padding: 3% 34%;
 }
+.i-flechas {
+    display: none;
+}
+
 }
 
 @media (min-width : 685px) and (max-width: 1024px ) and (orientation:portrait){ 
@@ -341,6 +354,10 @@ ul.i-redes li {
     padding: 3% 34%;
 }
 
+.i-flechas {
+    display: none;
+}
+
 }
 
 @media (min-width : 1024px) and (max-width: 1024px ) and (orientation:landscape) { 
@@ -360,6 +377,9 @@ ul.i-redes li {
 
 ul.i-redes img {
 display: inline;
+}
+.i-flechas {
+    display: none;
 }
 
 }
@@ -417,4 +437,7 @@ ul.i-redes img {
 display: inline;
 }
 
+.i-flechas {
+    display: none;
+}
 }
