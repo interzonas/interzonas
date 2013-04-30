@@ -878,7 +878,18 @@ color: #FF4D00;
 text-decoration: underline;
 }
 
+
+.instrucciones a:hover
+ {
+color: #FF4D00;
+
+}
 .instrucciones {
     font-size: 10px;
     line-height: 45px;
+}
+
+
+.instrucciones a {
+color: #fff;
 }
