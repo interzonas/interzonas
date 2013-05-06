@@ -72,7 +72,11 @@ $(document).ready(function(){
         })
 
         $(this).addClass('active')
-      }
+      },
+      easing: 'swing',
+      speed: 2000,
+      autoCoefficent: 3
+
     });
 
   try{
