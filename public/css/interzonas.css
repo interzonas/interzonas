@@ -1,6 +1,6 @@
 
 h1 {
-    font-family: "proxima-nova";
+    font-family: "proxima-nova",sans-serif;
     color: #fff;
     font-size: 13em;
     font-weight: 900;
@@ -55,7 +55,6 @@ color: #fff;
     background-color: #000;
     background-size: cover;
     background-position: 50% 35%;
-    background-repeat: none;
     background-image: url(../img/punk.jpg);
     border-bottom: 1px solid;
     width: 100%;
@@ -88,9 +87,9 @@ p.intertitle {
 }
 
 #menu{
-        width: 100%;
-        background-color: #000;
-        font-style: "proxima-nova";
+    width: 100%;
+    background-color: #000;
+    font-family: "proxima-nova",sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
@@ -104,7 +103,7 @@ p.intertitle {
 
 .section-nav {
     color: #838383;
-    font-style: "proxima-nova", sans-serif;
+    font-family: "proxima-nova", sans-serif;
     letter-spacing: 0.1em;
     text-align: center;
     text-transform: uppercase;
@@ -461,7 +460,6 @@ h5.contacta {
 font-family: "ff-tisa-web-pro",serif;
 font-style: italic;
 font-weight: 400;
-font-style: 10px;
 color:#BBBBBB;
 text-align: center;
 font-size: 18px; 
@@ -798,10 +796,8 @@ padding: 10px;
     left: 0px;
     color: transparent;
     background-position: 50% 50%;
-    background-repeat: none;
     background-image: url(../img/5.jpg);
     z-index: 0;  
-/*    height: 990px;*/
     min-height: 1035px;
     box-shadow: 0 0 5px #111111; 
 }
