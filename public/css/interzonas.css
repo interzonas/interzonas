@@ -21,9 +21,10 @@ h3 {
 font-family: "ff-tisa-web-pro",serif;
 font-style: normal;
 font-weight: 400;
-font-size: 43px;
+font-size: 18px;
  text-align: center;
  color: #888888;
+ margin: 20px 47px;
 
 }
 
@@ -652,7 +653,6 @@ margin: 50px;
     border: 1px solid #555555;
     color: #ccc;
     font-size: 13px;
-    line-height: 31px;
     margin-bottom: 10px;
     padding-left: 3px;
 
@@ -887,4 +887,8 @@ color: #FF4D00;
 
 .instrucciones a {
 color: #fff;
+}
+
+.links p {
+    margin-bottom: 0px;
 }
