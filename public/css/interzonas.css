@@ -889,3 +889,7 @@ color: #FF4D00;
 .instrucciones a {
 color: #fff;
 }
+
+.links p {
+    margin-bottom: 0px;
+}
