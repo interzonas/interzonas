@@ -419,9 +419,9 @@ font-size: 17px;
      padding: 28px;
 }
 
-.nosotros-content li {
+.nosotros-content li.noso {
     background: url("../img/separador.png") bottom no-repeat;
-    background-position: 50% 97%;
+    background-position: 50% 100%;
     margin: 35px 0;
 }
 
@@ -891,4 +891,36 @@ color: #fff;
 
 .links p {
     margin-bottom: 0px;
+}
+
+ul.n-redes li
+ {
+      display: inline;
+      margin: 0 8%;
+      opacity: 0.6;
+
+}
+
+ul.n-redes{
+margin: 0;
+}
+ul.n-redes li:hover
+ {
+      opacity: 1;
+}
+
+
+ul.n-redes img
+ {
+      display: inline;
+      width: 26px;
+}
+
+.nosotros-content ul.n-redes img {
+    margin: 0;
+    padding: 0;
+}
+.nredes-container {
+    margin: 40px 0px;
+
 }
