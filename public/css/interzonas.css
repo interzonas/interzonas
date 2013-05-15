@@ -928,3 +928,10 @@ ul.n-redes img
 .i1 {
     position: relative;
 }
+
+.chromeframe {
+    text-align: center;
+    background-color: #000;
+    color:#fff;
+
+}
