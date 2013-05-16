@@ -119,6 +119,11 @@ $(document).ready(function(){
     $('#proyectos-slide').css("left", "100%");
   });
 
+  $('.pregunta').click(function(){
+    $('#proyectos-slide').css("visibility", "hidden");
+    $('#proyectos-slide').css("left", "100%");
+  });
+
   $('#enter').click(function(e){
     e.preventDefault();
     var data = {};
