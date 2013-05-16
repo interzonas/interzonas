@@ -56,7 +56,8 @@ color: #fff;
     background-color: #000;
     background-size: cover;
     background-position: 50% 35%;
-    background-image: url(../img/punk.jpg);
+/*    background-image: url(../img/punk.jpg);*/
+    background-image: url(../img/33.gif);
     border-bottom: 1px solid;
     width: 100%;
 
@@ -275,7 +276,6 @@ left: -26px;
 }
 
 .proyectos-bottom {
-/*background: url("../img/bg-proyectos-bottom.png") bottom no-repeat;*/
 z-index:999;
 width: 100%;
 height: 70px;
@@ -937,12 +937,32 @@ ul.n-redes img
 }
 
 
-.pedrada {
-     background-color: #000;
+#anima {
+    background-color: #000;
     background-size: cover;
     background-position: 50% 35%;
-    background-image: url(../img/32.gif);
+/*    background-image: url(../img/33.gif);*/
     border-bottom: 1px solid;
     width: 100%;
     height: 300px;
+}
+
+.anima-texto{
+    background: url("../img/pattern.png") repeat scroll left top transparent;
+    height: 300px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.ojo-p{
+    background: url("../img/pattern.png") repeat scroll left top transparent;
+    /*height: 300px;*/
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 0;
 }
