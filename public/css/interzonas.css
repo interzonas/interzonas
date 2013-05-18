@@ -901,9 +901,18 @@ ul.n-redes li
 
 }
 
+ul.n-redes.karlos li
+ {
+      display: inline;
+      margin: 0 6%;
+      opacity: 0.6;
+
+}
+
 ul.n-redes{
 margin: 0;
 }
+
 ul.n-redes li:hover
  {
       opacity: 1;
@@ -966,3 +975,6 @@ ul.n-redes img
     width: 100%;
     z-index: 0;
 }
+
+
+
