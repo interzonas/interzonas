@@ -803,11 +803,13 @@ padding: 10px;
     box-shadow: 0 0 5px #111111; 
 }
 
+
+
 .nosotros-content,
 #n-quienes
  {
-    background-color: #000;
-  /*  opacity: 0.8;*/
+ background-image: url(../img/tp.png);
+ 
 }
 
 
