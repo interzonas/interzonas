@@ -3672,21 +3672,23 @@ table {
   position: absolute;
   z-index: 999;
   font-weight: bold;
-  font-size: 0.9375em;
+  font-size: 12px;
   line-height: 1.3;
   padding: 0.5em;
   max-width: 85%;
   left: 50%;
   width: 100%;
   color: white;
-  background: black; }
+  background: #FF4D00;
+  border-radius: 3px;
+   }
   .tooltip > .nub {
     display: block;
     position: absolute;
     width: 0;
     height: 0;
     border: solid 5px;
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent #FF4D00 transparent;
     top: -10px; }
   .tooltip.opened {
     color: #2ba6cb !important;
@@ -3703,7 +3705,7 @@ table {
 
 @media only screen and (min-width: 48em) {
   .tooltip > .nub {
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent #FF4D00 transparent;
     top: -10px; }
   .tooltip.tip-top > .nub {
     border-color: black transparent transparent transparent;
@@ -3712,13 +3714,13 @@ table {
   .tooltip.tip-left, .tooltip.tip-right {
     float: none !important; }
   .tooltip.tip-left > .nub {
-    border-color: transparent transparent transparent black;
+    border-color: transparent transparent transparent #FF4D00;
     right: -10px;
     left: auto;
     top: 50%;
     margin-top: -5px; }
   .tooltip.tip-right > .nub {
-    border-color: transparent black transparent transparent;
+    border-color: transparent #FF4D00 transparent transparent;
     right: auto;
     left: -10px;
     top: 50%;
@@ -3807,7 +3809,7 @@ table {
 
 
 h1 {
-    font-family: "proxima-nova";
+    font-family: "proxima-nova",sans-serif;
     color: #fff;
     font-size: 13em;
     font-weight: 900;
@@ -3828,9 +3830,10 @@ h3 {
 font-family: "ff-tisa-web-pro",serif;
 font-style: normal;
 font-weight: 400;
-font-size: 43px;
+font-size: 18px;
  text-align: center;
  color: #888888;
+ margin: 20px 47px;
 
 }
 
@@ -3862,8 +3865,10 @@ color: #fff;
     background-color: #000;
     background-size: cover;
     background-position: 50% 35%;
-    background-repeat: none;
-    background-image: url(../img/punk.jpg);
+/*    background-image: url(../img/punk.jpg);*/
+    background-image: url(../img/33.gif);
+    border-bottom: 1px solid;
+    width: 100%;
 
 }
 
@@ -3880,9 +3885,6 @@ color: #fff;
 
 }
 
-#slide1 {
-    width: 100%;
-}
 
 
 /*PUNK*/
@@ -3896,9 +3898,9 @@ p.intertitle {
 }
 
 #menu{
-        width: 100%;
-        background-color: #000;
-        font-style: "proxima-nova";
+    width: 100%;
+    background-color: #000;
+    font-family: "proxima-nova",sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
@@ -3908,11 +3910,12 @@ p.intertitle {
     -o-box-shadow:  0px 3px 4px rgba(0, 0, 0, 0.65);
     -ms-box-shadow:  0px 3px 4px rgba(0, 0, 0, 0.65);
     box-shadow:         0px 3px 4px rgba(0, 0, 0, 0.65);
+    
 }
 
 .section-nav {
     color: #838383;
-    font-style: "proxima-nova", sans-serif;
+    font-family: "proxima-nova", sans-serif;
     letter-spacing: 0.1em;
     text-align: center;
     text-transform: uppercase;
@@ -3987,7 +3990,6 @@ line-height: 3em;
 }
 .header {
     background-color: #262524;
-    height: 150px;
 }
 
 
@@ -4084,7 +4086,6 @@ left: -26px;
 }
 
 .proyectos-bottom {
-/*background: url("../img/bg-proyectos-bottom.png") bottom no-repeat;*/
 z-index:999;
 width: 100%;
 height: 70px;
@@ -4228,9 +4229,9 @@ font-size: 17px;
      padding: 28px;
 }
 
-.nosotros-content li {
+.nosotros-content li.noso {
     background: url("../img/separador.png") bottom no-repeat;
-    background-position: 50% 97%;
+    background-position: 50% 100%;
     margin: 35px 0;
 }
 
@@ -4270,7 +4271,6 @@ h5.contacta {
 font-family: "ff-tisa-web-pro",serif;
 font-style: italic;
 font-weight: 400;
-font-style: 10px;
 color:#BBBBBB;
 text-align: center;
 font-size: 18px; 
@@ -4463,7 +4463,6 @@ margin: 50px;
     border: 1px solid #555555;
     color: #ccc;
     font-size: 13px;
-    line-height: 31px;
     margin-bottom: 10px;
     padding-left: 3px;
 
@@ -4591,34 +4590,35 @@ padding: 10px;
 
 .supercontainer { 
     background: transparent url(../img/pattern.png) repeat top left; 
-    z-index: 0; width: 100%;
-    height: 100%;
+    z-index: 0; 
+    width: 100%;
     position: relative;
     top: 0px;
     left: 0px;
+    height: 1445px;
 }
 
 
 #slide3 {
-  width: 100%;
+    width: 100%;
     position: relative;
     top: 0px;
     left: 0px;
     color: transparent;
-    background-size: cover;
     background-position: 50% 50%;
-    background-repeat: none;
     background-image: url(../img/5.jpg);
     z-index: 0;  
-    height: 990px;
+    min-height: 1035px;
     box-shadow: 0 0 5px #111111; 
 }
+
+
 
 .nosotros-content,
 #n-quienes
  {
-    background-color: #000;
-    opacity: 0.8;
+ background-image: url(../img/tp.png);
+ 
 }
 
 
@@ -4683,6 +4683,114 @@ padding: 0 15px;
 color: #FF4D00;
 text-decoration: underline;
 }
+
+
+.instrucciones a:hover
+ {
+color: #FF4D00;
+
+}
+.instrucciones {
+    font-size: 11px;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+
+}
+
+.instrucciones a {
+color: #fff;
+}
+
+.links p {
+    margin-bottom: 0px;
+}
+
+ul.n-redes li
+ {
+      display: inline;
+      margin: 0 9%;
+      opacity: 0.6;
+
+}
+
+ul.n-redes.karlos li
+ {
+      display: inline;
+      margin: 0 6%;
+      opacity: 0.6;
+
+}
+
+ul.n-redes{
+margin: 0;
+}
+
+ul.n-redes li:hover
+ {
+      opacity: 1;
+}
+
+
+ul.n-redes img
+ {
+      display: inline;
+      width: 26px;
+}
+
+.nosotros-content ul.n-redes img {
+    margin: 0;
+    padding: 0;
+}
+.nredes-container {
+    margin: 40px 0px;
+
+}
+
+.i1 {
+    position: relative;
+}
+
+.chromeframe {
+    text-align: center;
+    background-color: #000;
+    color:#fff;
+
+}
+
+
+#anima {
+    background-color: #000;
+    background-size: cover;
+    background-position: 50% 35%;
+/*    background-image: url(../img/33.gif);*/
+    border-bottom: 1px solid;
+    width: 100%;
+    height: 300px;
+}
+
+.anima-texto{
+    background: url("../img/pattern.png") repeat scroll left top transparent;
+    height: 300px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.ojo-p{
+    background: url("../img/pattern.png") repeat scroll left top transparent;
+    /*height: 300px;*/
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+
+
+
 /*MEDIAQUERIS*/
 
 @media (max-width: 320px) { 
@@ -4759,6 +4867,13 @@ ul.i-redes img {
 display: inline;
 }
 
+.i-flechas {
+    display: none;
+}
+
+.proyectos-top {
+    background-size: 80%;
+}
 
 
 }
@@ -4843,6 +4958,10 @@ ul.i-redes li {
     padding: 3% 34%;
 }
 
+.i-flechas {
+    display: none;
+}
+
 }
 
 
@@ -4923,6 +5042,10 @@ ul.i-redes li {
     margin: 0 auto;
     padding: 3% 34%;
 }
+.i-flechas {
+    display: none;
+}
+
 
 }
 
@@ -4981,6 +5104,10 @@ ul.i-redes li {
     margin: 0 auto;
     padding: 3% 34%;
 }
+.i-flechas {
+    display: none;
+}
+
 }
 
 @media (min-width : 685px) and (max-width: 1024px ) and (orientation:portrait){ 
@@ -5026,6 +5153,10 @@ ul.i-redes li {
     padding: 3% 34%;
 }
 
+.i-flechas {
+    display: none;
+}
+
 }
 
 @media (min-width : 1024px) and (max-width: 1024px ) and (orientation:landscape) { 
@@ -5045,6 +5176,9 @@ ul.i-redes li {
 
 ul.i-redes img {
 display: inline;
+}
+.i-flechas {
+    display: none;
 }
 
 }
@@ -5102,4 +5236,7 @@ ul.i-redes img {
 display: inline;
 }
 
+.i-flechas {
+    display: none;
+}
 }
