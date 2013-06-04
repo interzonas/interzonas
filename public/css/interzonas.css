@@ -353,7 +353,8 @@ color: #FF4D00;
 }
 
 .tags, .links {
-    margin: 10px 0px
+    margin: 40px 0px;
+    clear: both;
 }
 
 .proyectos-nav {
@@ -979,5 +980,8 @@ ul.n-redes img
     z-index: 0;
 }
 
-
+.i-content a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
 
