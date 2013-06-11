@@ -1015,8 +1015,7 @@ ul.n-redes img
     width: 82px;
     height: 82px;
     left: 388px; 
-    top: 283px;
-     
+    top: 283px;  
 }
 
 
@@ -1071,6 +1070,8 @@ ul.n-redes img
 
 .teorema {
     height: 760px;
+    position: relative;
+    top: -40px;
 }
 
 #nueve{
@@ -1083,6 +1084,8 @@ ul.n-redes img
 
 
 
-
+#que h2 {
+    padding-top: 85px;
+}
 
 
