@@ -56,7 +56,6 @@ color: #fff;
     background-color: #000;
     background-size: cover;
     background-position: 50% 35%;
-/*    background-image: url(../img/punk.jpg);*/
     background-image: url(../img/33.gif);
     border-bottom: 1px solid;
     width: 100%;
@@ -73,10 +72,16 @@ color: #fff;
    
     background: #232323 url("../img/t-footer.png") bottom center no-repeat ;
     min-height: 800px;
-
 }
 
+#que {
+    min-height: 600px;
+     background-color: #1B1B1B;
 
+}
+h3.tec {
+font-size: 40px;
+}
 
 /*PUNK*/
 
@@ -126,7 +131,7 @@ p.intertitle {
 
 .section-nav li {
     display: inline-block;
-    padding: 0 4%;
+    padding: 0 2%;
     
    }
 
@@ -984,4 +989,100 @@ ul.n-redes img
     text-decoration: underline;
     opacity: 0.8;
 }
+
+.move {
+    cursor: move;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    z-index: 3;
+}
+
+#drag1 {
+    height: 65px;
+    left: 329px;
+    position: relative;
+    top: 152px;
+    width: 65px;
+}
+
+
+
+#drag2 {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    left: 388px; 
+    top: 283px;
+     
+}
+
+
+
+#drag3 {
+ position: relative;
+ width: 82px;
+ height: 82px;
+    left: 319px;
+    top: 129px;
+
+}
+
+#drag4{
+    height: 190px;
+    left: 410px;
+    position: relative;
+    top: -80px;
+    width: 190px;
+    z-index: 5;
+}
+
+#drag5 {
+ height: 105px;
+    left: 598px;
+    position: relative;
+    top: -313px;
+    width: 105px;
+}
+
+#drag6 {
+    height: 105px;
+    left: 682px;
+    position: relative;
+    top: -333px;
+    width: 105px;
+}
+#drag7 {
+    height: 82px;
+    left: 610px;
+    position: relative;
+    top: -353px;
+    width: 82px;
+}
+#drag8 {
+   height: 82px;
+    left: 539px;
+    position: relative;
+    top: -365px;
+    width: 82px;
+}
+
+.teorema {
+    height: 760px;
+}
+
+#nueve{
+    z-index: 5;
+    width: 330px;
+    position: relative;
+     left: 361px;
+    top: -335px;
+}
+
+
+
+
+
 
