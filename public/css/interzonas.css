@@ -75,8 +75,8 @@ color: #fff;
 }
 
 #que {
-    min-height: 600px;
      background-color: #1B1B1B;
+        height: 880px;
 
 }
 h3.tec {
@@ -1002,10 +1002,10 @@ ul.n-redes img
 
 #drag1 {
     height: 65px;
-    left: 329px;
     position: relative;
-    top: 152px;
     width: 65px;
+    left: 194px;
+    top: 187px;
 }
 
 
@@ -1014,8 +1014,8 @@ ul.n-redes img
     position: relative;
     width: 82px;
     height: 82px;
-    left: 388px; 
-    top: 283px;  
+    left: 663px;
+    top: 65px;
 }
 
 
@@ -1024,68 +1024,96 @@ ul.n-redes img
  position: relative;
  width: 82px;
  height: 82px;
-    left: 319px;
-    top: 129px;
+    left: 313px;
+    top: 42px;
 
 }
 
 #drag4{
     height: 190px;
-    left: 410px;
     position: relative;
-    top: -80px;
     width: 190px;
-    z-index: 5;
+    left: 401px;
+    top: -157px;
+
 }
 
 #drag5 {
  height: 105px;
-    left: 598px;
     position: relative;
-    top: -313px;
     width: 105px;
+    left: 588px;
+    top: -382px;
 }
 
 #drag6 {
     height: 105px;
-    left: 682px;
     position: relative;
-    top: -333px;
     width: 105px;
+    left: 300px;
+    top: -488px;
 }
 #drag7 {
     height: 82px;
-    left: 610px;
     position: relative;
-    top: -353px;
+   left: 666px;
+    top: -658px;
     width: 82px;
 }
 #drag8 {
    height: 82px;
-    left: 539px;
     position: relative;
-    top: -365px;
     width: 82px;
+    left: 377px;
+    top: -457px;
+
 }
 
+#drag9 {
+    position: relative;
+    width: 82px;
+    height: 82px;
+       left: 247px;
+    top: -666px;
+  
+}
+
+#drag10 {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    left: 529px;
+    top: -619px;
+
+}
+
+#drag11 {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    
+}
+
+
 .teorema {
-    height: 760px;
     position: relative;
     top: -40px;
+     height: 430px;
 }
 
 #nueve{
-    z-index: 5;
-    width: 330px;
+    left: 205px;
     position: relative;
-     left: 361px;
-    top: -335px;
-}
+    top: 38px;
+    width: 566px;
+    z-index: 5;
 
+}
 
 
 #que h2 {
     padding-top: 85px;
+
 }
 
 
