@@ -147,23 +147,23 @@ $(document).ready(function(){
 
       var stage = document.getElementById('stage');
       
-      var color = "#" + genHex();
+      var color = "#000000";
       var springs = [];
       var storeY;
       var extend = 100;
       var fK = .95;
       var particles = [];
-      var currentDrag = null;
       var mouseX = 0;
       var mouseY = 0;
       var stageWidth = $('#footer').width();
-      var stageHeight = $('#footer').height();
+      var stageHeight = 200;
+//      var stageHeight = $('#footer').height();
       stage.width = stageWidth;
       stage.height = stageHeight;
       
       var IE = document.all ? true : false;
       if(!IE) document.addEventListener(Event.MOUSEMOVE, getMouseXY, false);
-      $("section#footer").mouseenter(function(){
+      $("section#slide4").mouseenter(function(){
         document.onmousemove = getMouseXY;
       }).mouseleave(function(){
       });
@@ -178,119 +178,73 @@ $(document).ready(function(){
         setInterval(render, 20);
       }
       
-      
-      function genHex()
-      {
-        colors = new Array(14)
-        colors[0]="0"
-        colors[1]="1"
-        colors[2]="2"
-        colors[3]="3"
-        colors[4]="4"
-        colors[5]="5"
-        colors[5]="6"
-        colors[6]="7"
-        colors[7]="8"
-        colors[8]="9"
-        colors[9]="a"
-        colors[10]="b"
-        colors[11]="c"
-        colors[12]="d"
-        colors[13]="e"
-        colors[14]="f"
-        
-        digit = new Array(5)
-        color=""
-        for (i=0;i<6;i++)
-        {
-          digit[i]=colors[Math.round(Math.random()*14)]
-          color = color+digit[i]
-        }
-        
-        return '00a3d9';
-      }
-      
-      
-      function generate()
-      {
+          
+      function generate(){
         var total = Math.ceil(stageWidth / 25);
         springs = [];
         particles = [];
         
         var space = (stageWidth + extend) / total;
         var xpos = (space * .5) - (extend * .5);
-        var ypos = stageHeight * .5;
+        var ypos = 250;
         
-        for(var i = 0; i < total; i++)
-        {
+        for(var i = 0; i < total; i++){
           var particle = {};
           particle.x = particle.xpos = xpos;
           particle.y = particle.ypos = particle.origY = ypos;
           particle.ay = 0;
           particle.vy = 0;
-          particle.mass = 10;
+          particle.mass = 100;
           particles[particles.length] = particle;
-          
           xpos += space;
         }
         
-        
         storeY = mouseY;
-        for(var u = 0; u < particles.length-1; u++) springs.push({iLengthY:(particles[u+1].y - particles[u].y)});
+        for(var u = 0; u < particles.length-1; u++) {
+          springs.push({iLengthY:(particles[u+1].y - particles[u].y)});
+        }
       }
       
       
-      function mouseMove()
-      {
+      function mouseMove(){
         var particle = null;
         var smallestDist = Infinity;
         var target = null;
         
         var j = particles.length;
-        while(--j > -1)
-        {
+        while(--j > -1){
           var dx = mouseX - particles[j].x;
           var dy = mouseY - particles[j].y;
           var dist = Math.sqrt(dx * dx + dy * dy);
-          
-          if(dist < smallestDist)
-          {
+          if(dist < smallestDist){
             particle = particles[j];
             smallestDist = dist;
             target = j;
           }
         }
         
-        if(particle && mouseY > particle.y)
-        {
+        if(particle && mouseY > particle.y){
           var speed = mouseY - storeY;
-          
           particles[target - 2].vy = speed / 6;
           particles[target - 1].vy = speed / 5;
           particles[target].vy = speed / 3;
           particles[target + 1].vy = speed / 5;
           particles[target + 2].vy = speed / 6;
-        
           storeY = mouseY;
         }
       }
       
-      
-      function render()
-      {
-        for(var u = particles.length-1; u >= 0; --u)
-        {
+      function render(){
+        for(var u = particles.length-1; u >= 0; --u) {
           var fExtensionY = 0;
           var fForceY = 0;
         
-          if(u > 0)
-          {
+          if(u > 0){
             fExtensionY = particles[u-1].y - particles[u].y - springs[u-1].iLengthY;
             fForceY += -fK * fExtensionY;
           }
           
-          if(u < particles.length-1)
-          {
+          if(u < particles.length-1){
             fExtensionY = particles[u].y - particles[u+1].y - springs[u].iLengthY;
             fForceY += fK * fExtensionY;
           }
@@ -327,17 +281,7 @@ $(document).ready(function(){
         context.lineTo(-50, stageHeight/2);
         context.closePath();
         context.fill();
-        
-        /*var i = particles.length;
-        while(--i > -1)
-        {
-          context.fillStyle = "#000000";
-          context.beginPath();
-          context.arc(particles[i].x,particles[i].y,1,0,Math.PI*2,true);
-          context.closePath();
-          context.fill();
 
-        }*/
       }
       
       function getMouseXY(e)
@@ -353,8 +297,12 @@ $(document).ready(function(){
             mouseY = e.pageY
           }  
           
-          if(mouseX < 0) {mouseX = 0;}
-          if(mouseY < 0) {mouseY = 0;}  
+          if(mouseX < 0) {
+            mouseX = 0;
+          }
+          if(mouseY < 0) {
+            mouseY = 0;
+          }  
           
           mouseMove();
           

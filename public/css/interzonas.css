@@ -1115,7 +1115,13 @@ ul.n-redes img
 
 }
 
+#stage {
+position: relative;
+background-color: '#000000'
+top:    100px;
 
+
+}
 
 
 
