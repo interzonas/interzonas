@@ -113,7 +113,7 @@ display: inline;
 
 .w5 {
     padding: 0px;
-    left: 54px;
+    left: -10px;
     top: 21px;
 }
 
@@ -129,9 +129,9 @@ display: inline;
 
 
 .w5.i2 {
-    left: 125px;
+    left: 139px;
     position: relative;
-    top: 0px;
+    top: 26px;
 }
 
 #columna2.c5,
@@ -172,9 +172,6 @@ ul.i-redes li {
 }
 
 
-
-
-
 @media (min-width : 600px) and (max-width: 685px) { 
 
 #proyectos-grid, {
@@ -202,7 +199,7 @@ ul.i-redes li {
 
 .w5 {
     padding: 0px;
-    left: 54px;
+    left: -20px;
     top: 21px;
 }
 
@@ -218,9 +215,9 @@ ul.i-redes li {
 
 
 .w5.i2 {
-    left: 125px;
+    left: 99px;
     position: relative;
-    top: 0px;
+    top: 23px;
 }
 
 #columna2.c5,
@@ -391,11 +388,13 @@ display: inline;
 }
 
 
+
 @media (max-device-width: 1024px) and (orientation: landscape) { 
 
 .item-u {
     background-color: #000000;
-  border: 9px solid #009FDD;
+/*  border: 9px solid #009FDD;*/
+border: 9px solid #fff;
     height: 160px;
     width: 160px;
 }
@@ -446,19 +445,23 @@ display: inline;
 .i-flechas {
     display: none;
 }
-}
 
+}
 
 
 @media (max-width: 1024px ) { 
 
-
-.teorema {
-    background: url("../img/teorema.png") center no-repeat;
-     z-index: 9999;
-
-}
-
 #nueve, .move {
 display: none;
 }
+
+#que {
+    background-color: #1B1B1B;
+    background-image: url("../img/teorema.png");
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    background-size: 57% auto;
+}
+
+}
+
