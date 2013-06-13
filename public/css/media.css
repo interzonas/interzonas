@@ -447,3 +447,18 @@ display: inline;
     display: none;
 }
 }
+
+
+
+@media (max-width: 1024px ) { 
+
+
+.teorema {
+    background: url("../img/teorema.png") center no-repeat;
+     z-index: 9999;
+
+}
+
+#nueve, .move {
+display: none;
+}
