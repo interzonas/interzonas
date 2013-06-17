@@ -393,8 +393,7 @@ display: inline;
 
 .item-u {
     background-color: #000000;
-/*  border: 9px solid #009FDD;*/
-border: 9px solid #fff;
+  border: 9px solid #009FDD;
     height: 160px;
     width: 160px;
 }
