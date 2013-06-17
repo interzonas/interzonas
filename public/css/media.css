@@ -88,7 +88,7 @@ display: inline;
 
 @media (min-width : 321px) and (max-width: 600px) { 
 
-#proyectos-grid, {
+#proyectos-grid {
     clear: both;
     margin: 0;
     min-height: 800px;
@@ -174,7 +174,7 @@ ul.i-redes li {
 
 @media (min-width : 600px) and (max-width: 685px) { 
 
-#proyectos-grid, {
+#proyectos-grid {
     clear: both;
     margin: 0;
     min-height: 800px;
