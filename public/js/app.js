@@ -129,7 +129,7 @@ $(document).ready(function(){
       type: 'POST',
       data: JSON.stringify(data),
       contentType: 'application/json',
-      url: 'http://localhost:3000/enter', 
+      url: 'enter', 
       success: function(data) {
       }
     });
