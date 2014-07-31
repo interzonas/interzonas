@@ -1112,8 +1112,60 @@ ul.n-redes img
 
 #que h2 {
     padding-top: 85px;
-
 }
 
 
+/*Laboratorio*/
 
+
+.labs { 
+    background: url('../img/fr.jpg');
+    background-size: cover;
+    background-position: 0% 35%;
+    position: relative;
+    z-index: 16;
+    padding: 200px 0px;
+ }
+ 
+.labs:after { 
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAAGUlEQVQIW2NkYGD4D8SMQAwhYACZ8x9FBgA+pAIEV98iXwAAAABJRU5ErkJggg==);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.lab-wrapper
+ {
+ background-image: url(../img/tp.png);
+ padding: 10px 0;
+ }
+
+ .lab-link-wrapper {
+    text-align: center;
+    margin-top: 55px;
+    height: 65px;
+ }
+
+
+ .lab-link {
+    border: 1px solid #dadada;
+    padding: 10px 15px;
+    color: #999999;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 2px; 
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: all 400ms ease 0s;
+ }
+
+.lab-link-wrapper a:hover {
+    border: 1px solid #2795b6 !important;
+}
