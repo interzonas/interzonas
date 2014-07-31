@@ -1151,10 +1151,16 @@ ul.n-redes img
  }
 
 
- .lab-link {
+.lab-link-wrapper a:hover {
     border: 1px solid #dadada;
-    padding: 10px 15px;
     color: #999999;
+    
+ }
+
+.lab-link-wrapper a {
+    border: 1px solid #2795b6;
+    padding: 10px 15px;
+ 
     font-family: "proxima-nova",sans-serif;
     font-size: 17px;
     font-style: normal;
@@ -1164,8 +1170,13 @@ ul.n-redes img
     text-transform: uppercase;
     margin-top: 20px;
     transition: all 400ms ease 0s;
- }
+}
 
-.lab-link-wrapper a:hover {
-    border: 1px solid #2795b6 !important;
+.title-lab {
+    color: #c7c7c7;
+}
+
+#laboratorio strong {
+    font-weight: bold;
+    color: #ECECEC;
 }
